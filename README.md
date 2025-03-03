@@ -38,17 +38,17 @@ Users **chat** with SofIA via **Teams, WhatsApp or a voice call**, and the AI co
 ### 1. Simplified Registration & Onboarding (Education, Public Services, Banking)
 🎓 **Example**: A student wants to enroll in university. Instead of filling out 5 forms, they **chat with SofIA on WhatsApp**. SofIA extracts their details (ID card, proof of residence, etc.) and **automatically completes administrative forms**.
 
-### 2. Recruitment & Job Applications
-📄 **Example**: A candidate applies for a job on LinkedIn. Rather than filling out a standard form, they **answer a few questions via SofIA**, which pre-fills their application, attaches their resume, and submits it.
-
-### 3. Subscriptions & Banking Services
+### 2. Subscriptions & Banking Services
 🏦 **Example**: A user wants to apply for a bank card. SofIA retrieves their **KYC information** and **prepares their banking file**, including required documents.
 
-### 4. Administrative Requests
+### 3. Administrative Requests
 🏛️ **Example**: A citizen applies for a vehicle registration. SofIA guides them through a conversation, **automatically fills out the form fields**, and **only asks for confirmation**.
 
-### 5. E-Commerce & Insurance
-🛒 **Example**: When making a financed purchase, SofIA **assists the user** in filling out the credit application instead of leaving them to navigate through complex pages alone.
+### 4. Travel & Visa Applications
+✈️ **Example**: A traveler needs to apply for a visa. Instead of manually filling out embassy forms, they **chat with SofIA**, which collects their passport details, travel history, and supporting documents, then pre-fills and submits the visa application.
+
+### 5. Customer Support & Issue Resolution
+🛠 **Example**: A user needs to report a problem with a service. Instead of navigating through support pages and ticketing systems, they **explain the issue to SofIA**, which categorizes the request, fills out the support ticket, and escalates it to the right department.
 
 ---
 
