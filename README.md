@@ -97,9 +97,21 @@ The data is sent directly to the relevant service (**CRM, ERP, back-office**).
 ✅ **Boost conversion rates** – Fewer abandonments, more qualified leads  
 ✅ **Adaptable to all industries** – HR, banking, administration, e-commerce  
 
-## UX Overview
+## 🛠 Usage Example
 
-Here is an example of potentiel integration
-![home_page_example]("picture/home_page.png")
+Here is an example of a potential integration:  
+
+![Home Page Example](picture/home_page.png)
+
+---
+
+### 💬 Interactive Interview
+
+The interview process will take place on a dedicated page like this:  
+
+*(With a much better UX, of course! UX is key! 😉)*  
+
+![AI Conversation Example](picture/ai_conv.png)
+
 
 SofIA is **the future of forms**: an **interactive, fluid, and intelligent dialogue** to transform the user experience.
