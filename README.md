@@ -97,4 +97,9 @@ The data is sent directly to the relevant service (**CRM, ERP, back-office**).
 ✅ **Boost conversion rates** – Fewer abandonments, more qualified leads  
 ✅ **Adaptable to all industries** – HR, banking, administration, e-commerce  
 
+## UX Overview
+
+Here is an example of potentiel integration
+![home_page_example]("picture/home_page.png")
+
 SofIA is **the future of forms**: an **interactive, fluid, and intelligent dialogue** to transform the user experience.
