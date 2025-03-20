@@ -1,0 +1,271 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #fffbeb;
+}
+
+a {
+    text-decoration: none !important;
+    margin-right: 0.625%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 50px auto 0;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.column {
+    flex: 1 1 49%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 400px;
+    max-width: 49%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.column:hover {
+    transform: scale(1.05);
+}
+
+.column:nth-child(1) {
+    background-color: #ffcd00;
+    color: #071a39;
+}
+
+.column:nth-child(1) .header {
+    color: #071a39;
+}
+
+.column:nth-child(2) {
+    background-color: #071a39;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.5rem;
+    text-align: center;
+    font-size: 2.4rem;
+    position: relative;
+}
+
+.column:nth-child(1) .header::after,
+.column:nth-child(2) .header::after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+.column:nth-child(1) .header::after {
+    background-color: #071a39;
+}
+
+.column:nth-child(2) .header::after {
+    background-color: white;
+}
+
+.header .logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 0.3rem;
+    margin-right: 1rem;
+    object-fit: contain;
+}
+
+.h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: inherit;
+    padding-left: 1.5rem;
+}
+
+.content {
+    flex: 1;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: inherit;
+    width: 80%;
+    margin: 1rem auto 0;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+.content p strong {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgb(216, 215, 215);
+}
+
+#img_logo img {
+    max-width: 120px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 22px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.logo_title, .navbar ul li a {
+    color: #000000;
+}
+
+.navbar ul li a {
+    padding: 12px;
+    margin: 0 6px;
+}
+
+.navbar ul li a:hover {
+    color: #000000;
+    background-color: #FFD400;
+    border-radius: 4px;
+}
+
+.search_btn {
+    margin-right: 10px;
+    padding: 2px 10px;
+    margin-left: 550px;
+}
+
+.entretien_btn {
+    padding: 5px 25px;
+    border-radius: 25px;
+    border: none;
+    border-color: #FFD400;
+    background-color: #fff;
+}
+
+.entretien_btn:hover {
+    background-color: #FFD400;
+}
+
+.connect_btn {
+    padding: 5px 25px;
+    border-radius: 25px;
+    margin-right: 20px;
+    background-color: #FFD400;
+    border: none;
+}
+
+#sec {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    min-height: 300px;
+}
+
+#sec #title {
+    font-size: 3vw;
+    text-align: center;
+    margin: 75px auto 2vw;
+}
+
+#sec #presentation {
+    display: flex;
+}
+
+#sec #text {
+    width: 50%;
+    border: solid 2px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#sec #paragraphe {
+    text-align: justify;
+    padding: 20px 0px 0 20px;
+    width: 70%;
+}
+
+#sec #img {
+    width: 50%;
+}
+
+#sec #img img {
+    display: block;
+    margin: 0px auto;
+    width: 40%;
+    height: auto;
+}
+
+#bouton {
+    margin: 80px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bouton button {
+    margin: 0px auto 20px;
+    min-width: 18vw;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: #FFD400;
+    border: none;
+}
+
+#bouton button a {
+    font-weight: bold;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+}
+
+#bouton button:hover {
+    animation: scale 0.1s forwards;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 2rem;
+        max-width: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+
+    .column {
+        flex: 1 1 40%;
+        margin: 1%;
+    }
+}
